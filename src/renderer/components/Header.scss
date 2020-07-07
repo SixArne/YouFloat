@@ -1,0 +1,24 @@
+.page-landing-header {
+  width: 100%;
+  display:flex;
+
+  &-input {
+    flex: 1 1 85%;
+    padding: 10px;
+    background-color: #444444;
+    border: none;
+  }
+
+  &-button {
+    flex: 1 1 15%;
+    background-color: #d24b21;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+
+    &:hover {
+      
+    }
+  }
+}
+

@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background-color: #20252f;
+  -webkit-app-region: drag;
+  width: 4vw;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sidebar-menu-window-buttons,
+.sidebar-menu-app-buttons,
+.sidebar-menu-app-sticky-buttons
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  -webkit-app-region: no-drag;
+  width: 25%;
+  height: 25%;
+  padding: 10px;
+}
+
+.btn-box {
+  display:flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box:hover {
+  background-color:#444;
+}
+
+.toggled {
+  background-color: tomato;
+}
